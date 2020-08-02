@@ -20,7 +20,7 @@ steps:
     resourceGroupName: 'test12345'
     location: 'Central US'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateWebApp/azuredeploy.json'
+    csmFile: 'createwebapp/azuredeploy.json'
     overrideParameters: '-projectName test12345p -linkedTemplateUri https://raw.githubusercontent.com/bwczhao/test1234-repo/master/createwebapp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
